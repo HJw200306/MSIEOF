@@ -1,0 +1,17 @@
+name: base_decimer
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - numpy==1.23.5
+      - jax==0.4.30
+      - jaxlib==0.4.30
+      - ml-dtypes==0.3.2
+      - tensorflow==2.12.0
+      - decimer==2.8.0
+      - decimer-segmentation==1.4.0
+      - opencv-python-headless==4.10.0.84
+      - pillow==9.3.0
+
